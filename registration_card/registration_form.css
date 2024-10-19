@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+body{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+    background: linear-gradient(45deg,#282829,#00204a); 
+
+}
+
+.form_card{
+    height: 460px;
+    width: 800px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.form_card h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #00040a;
+    margin-bottom: 50px;
+}
+
+.input_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_input{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.user_input label {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 40px;
+    padding-right: 20px;
+}
+
+.user_input input {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 40px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #b5b3b3;
+}
+
+.gender_radio .gender{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    padding-right: 35px;
+}
+
+.gender_radio label{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button .cancel, .submit{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    padding: 10px 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.button .cancel{
+    background-color: #f1544b;
+}
+
+.button .submit{
+    background: linear-gradient(45deg, rgba(105,116,220,1) 50%, rgb(101, 79, 137) 100%)
+}
